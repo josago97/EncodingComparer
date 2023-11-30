@@ -1,0 +1,68 @@
+/* /Components/EncodingVisualizer.razor.rz.scp.css */
+.container[b-4ly41iodlf] {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.options[b-4ly41iodlf] {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.textarea[b-4ly41iodlf] {
+    height: 300px;
+}
+/* /Pages/Index.razor.rz.scp.css */
+section[b-w3uhe8mg9f] {
+    margin: auto;
+    max-width: 100%;
+    font-size: 1rem;
+}
+
+section.input[b-w3uhe8mg9f] {
+    
+}
+
+[b-w3uhe8mg9f] textarea {
+    resize: none;
+    overflow-y: auto;
+    font-size: inherit;
+}
+
+[b-w3uhe8mg9f] textarea, [b-w3uhe8mg9f] .textarea {
+    width: 100%;
+    height: 150px;
+}
+
+section.input .right-button[b-w3uhe8mg9f] {
+    text-align: right;
+}
+
+section.comparer[b-w3uhe8mg9f] {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+section.comparer article[b-w3uhe8mg9f] {
+    width: 50%;
+}
+
+section.translator[b-w3uhe8mg9f] {
+    margin-top: 35px;
+}
+/* /Shared/MainLayout.razor.rz.scp.css */
+div.page[b-5dem1qbpm7] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+main[b-5dem1qbpm7] {
+    width: 100%;
+    max-width: 1000px;
+}
