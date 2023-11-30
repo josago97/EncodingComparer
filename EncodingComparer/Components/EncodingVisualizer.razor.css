@@ -1,0 +1,15 @@
+﻿.container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.textarea {
+    height: 300px;
+}

@@ -1,0 +1,38 @@
+﻿@page "/"
+@using System.Text;
+
+<section class="input">
+    @Localization.InputText
+    <br />
+    <InputTextArea @bind-Value=InputText placeholder="@Localization.InputTextPlaceholder" />
+    <br />
+    <div class="right-button">
+        <button @onclick="Compare">@Localization.Compare</button>
+    </div>
+</section>
+
+<section class="comparer">
+    <article>
+        <EncodingVisualizer @bind-Encoding="EncodingFrom" Text="@TextToCompare" />
+    </article>
+    <article>
+        <EncodingVisualizer @bind-Encoding="EncodingTo" Text="@TextToCompare" />
+    </article>
+</section>
+
+<section class="translator">
+    <EncodingTranslator EncodingFrom="EncodingFrom" EncodingTo="EncodingTo" InputText="@TextToCompare" />
+</section>
+
+@code {
+
+    private string InputText { get; set; }
+    private string TextToCompare { get; set; }
+    private Encoding EncodingFrom { get; set; } = Encoding.ASCII;
+    private Encoding EncodingTo { get; set; } = Encoding.UTF8;
+
+    private void Compare()
+    {
+        TextToCompare = InputText;
+    }
+}

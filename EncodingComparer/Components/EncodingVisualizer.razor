@@ -1,0 +1,35 @@
+﻿@using System.Text;
+
+<div class="container">
+    <div class="options">
+        <div>@Localization.Encoding: <EncodingSelector Encoding="Encoding" EncodingChanged="EncodingChanged" /></div>
+
+        @if (Bytes != null && Bytes.Length > 0)
+        {
+            <div>@(Bytes.Length) @(Bytes.Length == 1 ? "byte" : "bytes")</div>
+        }
+    </div>
+    <div class="textarea">
+        @if (Bytes != null && Bytes.Length > 0) 
+            @(string.Join(" ", Bytes))
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public Encoding Encoding { get; set; }
+    [Parameter]
+    public EventCallback<Encoding> EncodingChanged { get; set; }
+    [Parameter]
+    public string Text { get; set; }
+
+    private byte[] Bytes { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        base.OnParametersSet();
+
+        if (Encoding != null && !string.IsNullOrEmpty(Text))
+            Bytes = Encoding.GetBytes(Text);
+    }
+}

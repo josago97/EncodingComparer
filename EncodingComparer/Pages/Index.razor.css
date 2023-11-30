@@ -1,0 +1,39 @@
+﻿section {
+    margin: auto;
+    max-width: 100%;
+    font-size: 1rem;
+}
+
+section.input {
+    
+}
+
+::deep textarea {
+    resize: none;
+    overflow-y: auto;
+    font-size: inherit;
+}
+
+::deep textarea, ::deep .textarea {
+    width: 100%;
+    height: 150px;
+}
+
+section.input .right-button {
+    text-align: right;
+}
+
+section.comparer {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+section.comparer article {
+    width: 50%;
+}
+
+section.translator {
+    margin-top: 35px;
+}

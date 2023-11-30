@@ -1,0 +1,31 @@
+﻿@using System.Text;
+
+<div>
+    @Localization.Translation: @EncodingFrom.BodyName
+    <span class="oi oi-arrow-right" aria-hidden="true" />
+    @EncodingTo.BodyName
+</div>
+<div class="textarea">@TranslatedText</div>
+
+@code {
+
+    [Parameter]
+    public Encoding EncodingFrom { get; set; }
+    [Parameter]
+    public Encoding EncodingTo { get; set; }
+    [Parameter]
+    public string InputText { get; set; }
+
+    private string TranslatedText { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        base.OnParametersSet();
+
+        if (EncodingFrom != null && EncodingTo != null && !string.IsNullOrEmpty(InputText))
+        {
+            byte[] bytes = EncodingFrom.GetBytes(InputText);
+            TranslatedText = EncodingTo.GetString(bytes);
+        }
+    }
+}

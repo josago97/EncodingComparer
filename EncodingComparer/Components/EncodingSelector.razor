@@ -1,0 +1,44 @@
+﻿@using System.Text;
+
+<InputSelect @bind-Value="EncodingSelected">
+    @foreach (string encoding in ENCODINGS)
+    {
+        <option>@encoding</option>
+    }
+</InputSelect>
+
+
+@code {
+    private static readonly string[] ENCODINGS = Encoding.GetEncodings()
+        .Select(encoding => encoding.Name)
+        .OrderBy(encoding => encoding)
+        .ToArray();
+
+    private string _encodingInfoSelected;
+
+    [Parameter]
+    public Encoding Encoding { get; set; }
+    [Parameter]
+    public EventCallback<Encoding> EncodingChanged { get; set; }
+
+    private string EncodingSelected
+    {
+        get => _encodingInfoSelected;
+        set 
+        {
+            if (!string.Equals(_encodingInfoSelected, value, StringComparison.OrdinalIgnoreCase))
+            {
+                _encodingInfoSelected = value;
+                Encoding = Encoding.GetEncoding(_encodingInfoSelected.ToLower());
+                EncodingChanged.InvokeAsync(Encoding);
+            }
+        } 
+    }
+
+    protected override void OnParametersSet()
+    {
+        base.OnParametersSet();
+
+        EncodingSelected = Encoding.BodyName;
+    }
+}
