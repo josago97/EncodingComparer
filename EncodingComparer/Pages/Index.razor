@@ -15,6 +15,9 @@
     <article>
         <EncodingVisualizer @bind-Encoding="EncodingFrom" Text="@TextToCompare" />
     </article>
+    <button @onclick=SwitchEncodings>
+        <span class="oi oi-transfer" aria-hidden="true" />
+    </button>
     <article>
         <EncodingVisualizer @bind-Encoding="EncodingTo" Text="@TextToCompare" />
     </article>
@@ -34,5 +37,12 @@
     private void Compare()
     {
         TextToCompare = InputText;
+    }
+
+    private void SwitchEncodings()
+    {
+        Encoding aux = EncodingFrom;
+        EncodingFrom = EncodingTo;
+        EncodingTo = aux;
     }
 }

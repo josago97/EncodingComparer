@@ -27,7 +27,8 @@ section.comparer {
     margin-top: 35px;
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    align-items: center;
+    gap: 10px;
 }
 
 section.comparer article {

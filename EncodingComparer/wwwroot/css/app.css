@@ -114,3 +114,7 @@ div.textarea {
     overflow-y: auto;
     word-wrap:break-word;
 }
+
+input, select {
+    font-size: 1em;
+}
