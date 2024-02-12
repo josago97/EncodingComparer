@@ -44,7 +44,8 @@ section.comparer[b-w3uhe8mg9f] {
     margin-top: 35px;
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    align-items: center;
+    gap: 10px;
 }
 
 section.comparer article[b-w3uhe8mg9f] {
@@ -54,15 +55,15 @@ section.comparer article[b-w3uhe8mg9f] {
 section.translator[b-w3uhe8mg9f] {
     margin-top: 35px;
 }
-/* /Shared/MainLayout.razor.rz.scp.css */
-div.page[b-5dem1qbpm7] {
+/* /Pages/MainLayout.razor.rz.scp.css */
+div.page[b-q03qtlbr3e] {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
 }
 
-main[b-5dem1qbpm7] {
+main[b-q03qtlbr3e] {
     width: 100%;
     max-width: 1000px;
 }

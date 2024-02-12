@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "EncodingComparer",
   "resources": {
-    "hash": "sha256-FAU3/9NqEwGsy4z89Ib1sKCcfxen+t7ehgv6dzwbivk=",
+    "hash": "sha256-9fj4JbMakQ2lM3B4H3z44poKar+GFaIgaGTxhDdMGh0=",
     "jsModuleNative": {
       "dotnet.native.8.0.1.7dy1v5xjbx.js": "sha256-UEANEsVpKkJg3f4WNAsYS/FOBmxdk+vOnCERRR2UPl8="
     },
@@ -9,7 +9,7 @@
       "dotnet.runtime.8.0.1.jvv0ztohpa.js": "sha256-HZOoaGpz9ekMa/oSmeApSKp3DXNdVUq2UBqsTIIiN8A="
     },
     "wasmNative": {
-      "dotnet.native.wasm": "sha256-LCx88jZGNuJVDii+sjfhY+OAwFEmRSWN+ouzQ/dZRZ8="
+      "dotnet.native.wasm": "sha256-lR/jSddkCu8l9QQ4x6rWGR3AN7aSvTBxQTi+lOz4Daw="
     },
     "icu": {
       "icudt_CJK.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -17,7 +17,7 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
-      "EncodingComparer.wasm": "sha256-rIqRejUyysy+I9tGawjQ/cxdyvMGJV3RLtEjmYeiTOM=",
+      "EncodingComparer.wasm": "sha256-wQCKwlVIHyLOua3LFLBgsrEpM61jZZjVF1fyc6Ufux0=",
       "Microsoft.AspNetCore.Components.Forms.wasm": "sha256-L3z9gLy453ChDsq4RXjjKDg5IncprVXlOCxwTUv0LPc=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-FAUStIUYIJuw3Gs0RMx/0/kBr0aAy2BdclnPjQNL+Ew=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-QmK/uJSHoF1C8k+HoZrnOvftOrYbpdXnpTYaL0aLTck=",
@@ -60,7 +60,7 @@
     },
     "satelliteResources": {
       "es": {
-        "EncodingComparer.resources.wasm": "sha256-0yRz8vblIQ+1ppKLWI/sbdlYNa6XxmyLyAwYSfEfZjE="
+        "EncodingComparer.resources.wasm": "sha256-n2DXi5qRNEC7Cx+1kdq9q98gKwSuMaK+0/fDn03Lib4="
       }
     }
   },

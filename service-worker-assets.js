@@ -25,7 +25,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-k1hPHAdUhdfAzHA8\/TOr02ICHf1ILlx6J3ffFvji7d4=",
+      "hash": "sha256-0q0EfSRIaugnWzKNTci9PMOVqOBIy4CwEgEjLMMAapk=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -33,11 +33,11 @@
       "url": "_framework\/dotnet.native.8.0.1.7dy1v5xjbx.js"
     },
     {
-      "hash": "sha256-LCx88jZGNuJVDii+sjfhY+OAwFEmRSWN+ouzQ\/dZRZ8=",
+      "hash": "sha256-lR\/jSddkCu8l9QQ4x6rWGR3AN7aSvTBxQTi+lOz4Daw=",
       "url": "_framework\/dotnet.native.wasm"
     },
     {
-      "hash": "sha256-rIqRejUyysy+I9tGawjQ\/cxdyvMGJV3RLtEjmYeiTOM=",
+      "hash": "sha256-wQCKwlVIHyLOua3LFLBgsrEpM61jZZjVF1fyc6Ufux0=",
       "url": "_framework\/EncodingComparer.wasm"
     },
     {
@@ -197,15 +197,15 @@
       "url": "_framework\/System.wasm"
     },
     {
-      "hash": "sha256-0yRz8vblIQ+1ppKLWI\/sbdlYNa6XxmyLyAwYSfEfZjE=",
+      "hash": "sha256-n2DXi5qRNEC7Cx+1kdq9q98gKwSuMaK+0\/fDn03Lib4=",
       "url": "_framework\/es\/EncodingComparer.resources.wasm"
     },
     {
-      "hash": "sha256-kd1xTcWJKlGtshwockE1fyNYF7+DYEwKei4QvNK6etU=",
+      "hash": "sha256-jz2GShkQX987mFSDp2wpzG5FuFRaltA31Ow4iCedbiU=",
       "url": "EncodingComparer.styles.css"
     },
     {
-      "hash": "sha256-zXIS8Z\/phf7+58+c4Uc\/8gtSlhcwK7Fy44E3KS5C\/JI=",
+      "hash": "sha256-AQVGxKbVpnlsDIvqZQorFN7bQsYiPy9oxn+xpUAfiQ0=",
       "url": "css\/app.css"
     },
     {
@@ -265,5 +265,5 @@
       "url": "manifest.json"
     }
   ],
-  "version": "3cQsaJFL"
+  "version": "\/aSh4HIt"
 };
