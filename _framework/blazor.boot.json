@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "EncodingComparer",
   "resources": {
-    "hash": "sha256-cIq28yx75spL+SoR7YGnTreN+VZKgMsmPp3nrIRNeC0=",
+    "hash": "sha256-FAU3/9NqEwGsy4z89Ib1sKCcfxen+t7ehgv6dzwbivk=",
     "jsModuleNative": {
       "dotnet.native.8.0.1.7dy1v5xjbx.js": "sha256-UEANEsVpKkJg3f4WNAsYS/FOBmxdk+vOnCERRR2UPl8="
     },
@@ -9,7 +9,7 @@
       "dotnet.runtime.8.0.1.jvv0ztohpa.js": "sha256-HZOoaGpz9ekMa/oSmeApSKp3DXNdVUq2UBqsTIIiN8A="
     },
     "wasmNative": {
-      "dotnet.native.wasm": "sha256-6q9r3CnwA2OdY9H/UmNryH8bmw4g7Huc1//0/2p6XIM="
+      "dotnet.native.wasm": "sha256-LCx88jZGNuJVDii+sjfhY+OAwFEmRSWN+ouzQ/dZRZ8="
     },
     "icu": {
       "icudt_CJK.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
