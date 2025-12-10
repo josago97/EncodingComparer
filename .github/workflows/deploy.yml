@@ -20,14 +20,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     # uses GitHub's checkout action to checkout code form the master branch
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v5
     
     # sets up .NET SDK
     - name: Setup .NET SDK
-      uses: actions/setup-dotnet@v3
+      uses: actions/setup-dotnet@v5
       with:
         dotnet-version: | 
-            9.0.X
+            10.0.X
      # Install wasm-tools
     - name: Install wasm-tools
       run: dotnet workload install wasm-tools
